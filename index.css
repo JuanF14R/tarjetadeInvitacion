@@ -1,0 +1,113 @@
+/* Fuente imortada de google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+/* Establecimiento de variables de color y texto */
+:root{
+    --backgroundcolor: #272A59;
+    --primarycolor: #D7A45B;
+    --textcolor:#F9FFFF;
+    --tipography: 'Times New Roman', Times, serif;
+}
+
+
+body {
+    box-sizing: border-box;
+    background-image: url(./assets/bg-imagen.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: contain;
+    font-family: var(--tipography);
+    font-size: 18px;
+}
+
+header {
+    width: 25%;
+    /* height:33%; */
+    
+    margin: auto 35%;
+    margin-top: 1%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header img {
+    width: 150px
+}
+
+main {
+    width: 25%;
+    /* height: 33%; */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* gap: 20px; */
+    align-items: center;
+    margin: auto;
+    margin-top: 0%;
+    /* padding: 2%; */
+}
+
+main h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 60px;
+    color: var(--primarycolor);
+}
+
+.Contenedor-cinta-nombre{
+    position: relative;
+}
+
+.Contenedor-cinta-nombre p {
+    position:absolute;
+    top: 55%;
+    right: 23%;
+    color: var(--backgroundcolor);
+
+}
+.Localizacion{
+    /* border: solid white; */
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    /* padding: 50px 20px; */
+    
+}
+.Localizacion li {
+    /* border: solid red; */
+    padding: 20px 20px;
+}
+/* REVISAR */
+.lista {
+    border-left: solid;
+    border-right: solid;
+}
+
+/* div{
+    border: solid green;
+} */
+
+
+footer {
+    width: 25%;
+    height: 5%;
+    margin: auto;
+    text-align: center;
+    font-family: var(--tipography);
+    margin-top: 35px;
+
+    
+}
